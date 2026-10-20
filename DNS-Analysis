@@ -1,0 +1,21 @@
+# DNS Incident Analysis & Troubleshooting
+
+## 📌 Project Overview
+This project investigates a DNS resolution failure captured in a network packet log during a cybersecurity lab assignment. The objective is to analyze packet capture data, identify the root cause of the connection error, and propose a resolution.
+
+---
+
+## 🔍 Incident Details
+* **Incident Time:** Starts at 13:24:32[cite: 1]
+* **Client IP:** `192.51.100.15`[cite: 1]
+* **Target DNS Server IP:** `203.0.113.2`[cite: 1]
+* **Target Domain:** `yummyrecipesforme.com`[cite: 1]
+* **Affected Port:** UDP Port 53 (DNS Service)[cite: 1]
+
+---
+
+## 📊 Network Log Analysis
+
+### Capture Sample:
+```text
+13:24:32
